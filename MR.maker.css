@@ -1,3 +1,5 @@
+
+/* every stomach is welcome */
 .flip-card {
     background-color: transparent;
     width: 180px;
@@ -21,11 +23,10 @@
 flex-direction: row;
 flex-wrap: wrap;
 z-index: -1;
-
-
-
 justify-content: space-between;
-
+align-items: center;
+width: 100%;
+height: 100%;
 }
 
 .flip-card-front, .flip-card-back {
@@ -103,4 +104,10 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 5px;
     margin-right: 15px;
 }    
-#main {padding: 80px;z-index: -1;}
+#main {
+    padding: 80px;
+    z-index: -1;
+
+
+
+}
